@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.hero{
+    position: relative;
+    padding:0 5%;
+    display:flex;
+    background: red;
+}
+nav{
+    width:100%;
+    position:absolute;
+    display: flex;
+    top:0;
+    left:0;
+    padding:20px 8%;
+    justify-content: space-between;
+    width: 100%;
+    height:80px;
+    margin-top: 5px;
+    margin-bottom: 100px;
+}
+nav .img-logo{
+    width:100px;
+}
+nav ul li{
+    list-style:none;
+    display:inline-block;
+    margin-left: 80px;
+    margin-top: 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color:white;
+    font-size: 18px;
+}
+.thiru{
+    width: 100%;
+    height:300px;
+    display:block;
+}
+.thiru{
+    background-image: url(../images/pradeepkumar-k-p-wSaZcuvq7-E-unsplash.jpg);
+    width: 100%;
+    height: 250px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.thiru, .cover, #cv h1{
+    justify-content:center;
+    align-items: center;
+    text-align:left;
+}
+.headeri{
+    width: auto;
+    height: 80px;
+    background: rgb(239, 241, 245);
+    margin-top: 10px;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 10px 30px 30px;
+}
+.headeri h1{
+    color: brown;
+    text-align: center;
+    
+}
+.kuthira{
+    width:auto;
+    height: 700px;
+    background-image: url(../images/Illickal_Kallu_1871.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top:20px;
+    margin: 20px 20px 30px 30px;
+}
+.kuthira:hover{
+    filter: brightness(60%);
+    filter: drop-shadow(5px);
+}
+.kuthira h1{
+    text-align: left;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 40px;
+    color:rgb(160, 74, 241);
+    font-size: 30px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 900;
+}
+.kuthira h1:hover{
+    color: transparent;
+    -webkit-text-stroke: 2px red;
+}
+.dis p{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 20px 40px;
+    text-align: justify;
+
+}
